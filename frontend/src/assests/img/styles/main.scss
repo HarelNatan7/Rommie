@@ -10,14 +10,14 @@
 @import "basics/base";
 
 //pages
-@import "pages/_home";
+@import "pages/home";
 @import "pages/login";
 @import "pages/client-index";
 @import "pages/client-list";
 
 //components
 
-@import "cmps/_app-header.scss";
-@import "cmps/_client-preview.scss";
-@import "cmps/_client-index.scss";
-@import "cmps/_client-pricing.scss";
+@import "cmps/app-header.scss";
+@import "cmps/client-preview.scss";
+@import "cmps/client-index.scss";
+@import "cmps/client-pricing.scss";
