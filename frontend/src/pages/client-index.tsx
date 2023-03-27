@@ -35,7 +35,6 @@ export function ClientIndex() {
     <section className="client-index flex column">
       <h1 className="welcome-title">Welcome Back *Username* !</h1>
       <h1>{client.businessName}</h1>
-      <Link to={`/client/${clientId}/about`}>About Client</Link>
       <ClientPricing packages={client.packages} onSelectPack={onSelectPack} />
     </section>
   )
